@@ -31,7 +31,7 @@
                             </div>
                             <div class="form-group">
                                 <label>IMAGE</label>
-                               <textarea class="form-control" name="image" rows="4" placeholder="Masukkan Gambar"><?php echo $post['content'] ?></textarea>
+                                <input type="file" class="form-control" name="image" value="<?php echo $post['image'] ?>" placeholder="Masukkan Gambar">
                             </div>
                             <button type="submit" class="btn btn-primary">UPDATE</button>
                         </form>

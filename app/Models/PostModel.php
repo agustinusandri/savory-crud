@@ -14,6 +14,7 @@ class PostModel extends Model
      */
     protected $allowedFields = [
         'title',
-        'content'
+        'content',
+        'image'
     ];
 }

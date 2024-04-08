@@ -31,7 +31,7 @@
                             </div>
                             <div class="form-group">
                                 <label>IMAGE</label>
-                               <textarea class="form-control" name="image" rows="4" placeholder="Masukkan Gambar"></textarea>
+                                <input type="file" class="form-control" name="image" placeholder="Masukkan Gambar">
                             </div>
                             <button type="submit" class="btn btn-primary">SIMPAN</button>
                         </form>

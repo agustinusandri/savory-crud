@@ -35,8 +35,8 @@
                         <tr>
                             <th>TITLE</th>
                             <th>CONTENT</th>
-                            <th>AKSI</th>
                             <th>GAMBAR</th>
+                            <th>AKSI</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -45,7 +45,8 @@
                             <tr>
                                 <td><?php echo $post['title'] ?></td>
                                 <td><?php echo $post['content'] ?></td>
-    
+                                <td><?php echo $post['image'] ?></td>
+                            
     
                                 <td class="text-center">
                                     <a href="<?php echo base_url('post/edit/'.$post['id']) ?>" class="btn btn-sm btn-primary">EDIT</a>
